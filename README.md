@@ -3,9 +3,9 @@
 
 ### How to use
 
+copy object from [bunadmin-plugins](https://github.com/bunred/bunadmin-plugins/blob/master/navigation/data-source/bunred/bunadmin-plugin-data-source-strapi.json) into array (:bunadmin/plugins-info.json)
 ```
-cd [bunadmin path]/plugins/
-git clone https://github.com/bunred/bunadmin-plugin-data-source-strapi.git data-source-strapi
+node plugins-update.js
 ```
 
 See more of [bunadmin-example-strapi](https://github.com/bunred/bunadmin-example-strapi)

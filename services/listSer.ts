@@ -1,9 +1,7 @@
 /**
  * Remote data controller
  */
-import request from "@/utils/scripts/request"
-import storedToken from "@/utils/scripts/storedToken"
-import { ENV } from "@/utils/config"
+import { ENV, request, storedToken } from "@bunred/bunadmin"
 import { DataCtrl } from "../types"
 
 export default async function listSer({ query, SchemaName }: DataCtrl) {

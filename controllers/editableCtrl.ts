@@ -1,10 +1,12 @@
-import { EditableDataType } from "@/components/CommonTable/models/editable"
 import updateSer from "../services/updateSer"
 import deleteSer from "../services/deleteSer"
 import addSer from "../services/addSer"
 import { EditableCtrl } from "../types"
+import { EditableDataType } from "@bunred/bunadmin"
 
-function editableCtrl({ SchemaName }: EditableCtrl): EditableDataType<any> {
+export default function editableCtrl({
+  SchemaName
+}: EditableCtrl): EditableDataType<any> {
   return {
     // isEditable: rowData => rowData.not_editable === true, // only name(a) rows would be editable
     // isDeletable: rowData => rowData.not_deletable === true, // only name(a) rows would be deletable
@@ -14,5 +16,3 @@ function editableCtrl({ SchemaName }: EditableCtrl): EditableDataType<any> {
     onRowDelete: oldData => deleteSer({ oldData, SchemaName })
   }
 }
-
-export default editableCtrl

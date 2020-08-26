@@ -7,3 +7,4 @@
 # BunAdmin
 dist
 *.tgz
+yarn.lock

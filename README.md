@@ -1,10 +1,3 @@
-# bunadmin-source-strapi
-[This plugin needs to be used in BunAdmin](https://github.com/bunred/bunadmin)
+# bunadmin plugin
 
-### How to use
-
-```
-yarn add bunadmin-source-strapi
-```
-
-See more on [bunadmin-example-strapi](https://github.com/bunred/bunadmin-example-strapi)
+This repository have been moved here: [bunred/bunadmin](https://github.com/bunred/bunadmin/tree/master/packages/bunadmin-source-strapi)
